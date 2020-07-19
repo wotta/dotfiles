@@ -37,6 +37,11 @@ mkdir $HOME/projects
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# This is a fix to make sure the zsh folders have the correct permissions ( 755 )
+compaudit | xargs chmod g-w,o-w
+# chmod g-w,o-w /usr/local/share/zsh
+# chmod g-w,o-w /usr/local/share/zsh/site-functions
+
 # Symlink the Mackup config file to the home directory
 # ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
