@@ -1,3 +1,7 @@
+# Fix for the following issue: https://github.com/ohmyzsh/ohmyzsh/issues/6461
+# ${ZSH_DISABLE_COMPFIX:=true}
+# ZSH_DISABLE_COMPFIX=true
+
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 

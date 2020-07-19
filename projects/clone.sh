@@ -3,7 +3,7 @@
 echo "Cloning repositories..."
 
 PROJECTS=$HOME/projects
-PERSONAL=$PROJECTS/perosnal
+PERSONAL=$PROJECTS/personal
 WORK=$PROJECTS/work
 
 # Personal

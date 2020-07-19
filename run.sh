@@ -15,7 +15,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Set default MySQL root password and auth type.
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
 pecl install memcached imagick
@@ -31,7 +31,7 @@ $HOME/.composer/vendor/bin/valet install
 mkdir $HOME/projects
 
 # Clone Github repositories
-./clone.sh
+./projects/clone.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
