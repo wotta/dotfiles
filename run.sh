@@ -25,9 +25,12 @@ pecl install memcached imagick
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
+# Check if the tld isn't wotty. if so run script
+if $HOME/.composer/vendor/bin/valet tld | grep -q 'test'; then
+	$HOME/.composer/vendor/bin/valet tld wotty
+fi
 
 # Create a projects directory
-# This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/projects
 
 # Clone Github repositories
