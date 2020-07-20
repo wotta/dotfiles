@@ -45,8 +45,9 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
-cask 'alfred'
+cask 'alfred3'
 cask 'bitwarden'
+cask 'dash'
 cask 'dbngin'
 cask 'discord'
 cask 'docker'
@@ -55,10 +56,12 @@ cask 'gpg-suite'
 cask 'hiddenbar'
 cask 'imageoptim'
 cask 'insomnia'
+cask 'iterm2'
 cask 'java'
 cask 'megasync'
 cask 'phpstorm'
 cask 'slack'
+cask 'spectacle'
 cask 'sublime-text'
 cask 'tableplus'
 cask 'there'
@@ -74,6 +77,7 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-hack-nerd-font'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -83,4 +87,4 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Spark', id: 1176895641
+mas "Spark", id: 1176895641
