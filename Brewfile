@@ -87,5 +87,8 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
+# ZSH
+cask 'zsh-autosuggestions'
+
 # Mac App Store
 mas "Spark", id: 1176895641
