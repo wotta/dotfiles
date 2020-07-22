@@ -93,3 +93,4 @@ cask 'zsh-autosuggestions'
 # Mac App Store
 mas "Spark", id: 1176895641
 mas "TweetDeck", id: 485812721
+mas "Monosnap", id: 540348655
