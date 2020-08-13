@@ -69,6 +69,7 @@ cask 'tableplus'
 cask 'there'
 cask 'the-unarchiver'
 cask 'tinkerwell'
+cask 'typora'
 cask 'whatsapp'
 
 # Quicklook
