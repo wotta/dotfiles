@@ -1,4 +1,5 @@
 # System aliases
+alias update="source ~/.zshrc; c"
 
 # permissions
 alias permission="stat -f '%A %a %N'"

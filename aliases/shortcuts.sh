@@ -15,6 +15,9 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias reloadshell="source $HOME/.zshrc"
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
+alias localwork="ssh-add -D; ssh-add ~/.ssh/motivo_rsa"
+alias companywork="ssh-add -D; ssh-add ~/.ssh/motivo_rsa"
+
 # shortcuts to configs
 alias eV='vim ~/.vimrc'
 alias eZ='vim ~/.zshrc'
