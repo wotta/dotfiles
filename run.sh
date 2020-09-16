@@ -18,7 +18,7 @@ brew bundle
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;" || true
 
 # Install PHP extensions with PECL
-pecl install memcached imagick
+pecl install memcached imagick xdebug
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
