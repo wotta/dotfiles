@@ -44,6 +44,10 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
+# Add ini symlink so we can easily acces it.
+# This can be done as: php -c ./disable-xdebug.ini vendor/bin/phpunit
+ln -s $HOME/.dotfiles/php/ini/disable-xdebug.ini $HOME/disable-xdebug.ini
+
 # This is a fix to make sure the zsh folders have the correct permissions ( 755 )
 compaudit | xargs chmod g-w,o-w
 # chmod g-w,o-w /usr/local/share/zsh
