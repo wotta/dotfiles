@@ -40,6 +40,10 @@ mkdir $HOME/projects
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Added global ignore file as symlink and set the global git config.
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
 # This is a fix to make sure the zsh folders have the correct permissions ( 755 )
 compaudit | xargs chmod g-w,o-w
 # chmod g-w,o-w /usr/local/share/zsh
