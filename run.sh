@@ -21,7 +21,11 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 pecl install memcached imagick xdebug
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
+/usr/local/bin/composer global require \
+    laravel/installer \
+    laravel/valet \
+    beyondcode/expose \
+    tightenco/takeout
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
