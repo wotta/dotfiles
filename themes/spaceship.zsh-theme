@@ -1,0 +1,1 @@
+/Users/wouter/.dotfiles/themes/spaceship-prompt/spaceship.zsh-theme
