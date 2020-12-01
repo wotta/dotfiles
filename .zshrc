@@ -99,6 +99,9 @@ export LANG=en_US.UTF-8
 # Fix composer issue
 export COMPOSER_MEMORY_LIMIT=-1
 
+# Editor that is used to open file after running artisan make: command
+ARTISAN_OPEN_ON_MAKE_EDITOR=phpstorm
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -118,4 +121,4 @@ export COMPOSER_MEMORY_LIMIT=-1
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
