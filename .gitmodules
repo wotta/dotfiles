@@ -1,0 +1,3 @@
+[submodule "/Users/wouter/.dotfiles/plugins/artisan"]
+	path = /Users/wouter/.dotfiles/plugins/artisan
+	url = https://github.com/jessarcher/zsh-artisan.git
