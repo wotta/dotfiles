@@ -117,3 +117,5 @@ export COMPOSER_MEMORY_LIMIT=-1
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+eval "$(rbenv init -)"
