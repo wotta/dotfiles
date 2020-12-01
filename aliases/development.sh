@@ -3,6 +3,7 @@
 # laravel
 alias a="php artisan"
 alias artisan="php artisan"
+alias dep="php ./vendor/bin/dep"
 alias fresh="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 
