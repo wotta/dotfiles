@@ -27,6 +27,10 @@ pecl install memcached imagick xdebug
     beyondcode/expose \
     tightenco/takeout
 
+# Install global npm packages
+/usr/local/bin/npm install --global \
+	kmdr # https://kmdr.sh
+
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 # Check if the tld isn't wotty. if so run script
