@@ -56,6 +56,9 @@ git config --global core.excludesfile ~/.gitignore_global
 # This can be done as: php -c ./disable-xdebug.ini vendor/bin/phpunit
 ln -s $HOME/.dotfiles/php/ini/disable-xdebug.ini $HOME/disable-xdebug.ini
 
+# Symlink spaceship theme
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
+
 # This is a fix to make sure the zsh folders have the correct permissions ( 755 )
 compaudit | xargs chmod g-w,o-w
 # chmod g-w,o-w /usr/local/share/zsh

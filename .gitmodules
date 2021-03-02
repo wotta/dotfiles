@@ -1,3 +1,6 @@
-[submodule "themes/spaceship-prompt"]
-	path = themes/spaceship-prompt
+[submodule "/Users/wouter/.dotfiles/plugins/artisan"]
+	path = /Users/wouter/.dotfiles/plugins/artisan
+	url = https://github.com/jessarcher/zsh-artisan.git
+[submodule "/Users/wouter/.dotfiles/themes/spaceship-prompt"]
+	path = /Users/wouter/.dotfiles/themes/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
