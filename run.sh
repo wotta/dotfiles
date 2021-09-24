@@ -14,17 +14,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
-# Install global npm packages
-/usr/local/bin/npm install --global \
-	kmdr # https://kmdr.sh
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-# Check if the tld isn't wotty. if so run script
-if $HOME/.composer/vendor/bin/valet tld | grep -q 'test'; then
-	$HOME/.composer/vendor/bin/valet tld wotty
-fi
-
 # Create a projects directory
 mkdir $HOME/projects
 
