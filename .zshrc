@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
