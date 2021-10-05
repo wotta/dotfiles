@@ -36,6 +36,10 @@ compaudit | xargs chmod g-w,o-w
 # chmod g-w,o-w /usr/local/share/zsh
 # chmod g-w,o-w /usr/local/share/zsh/site-functions
 
-# Set macOS preferences
-# We will run this last because this will reload the shell
-# source .macos
+# Run gems to install
+
+if ! command -v colorls &> /dev/null
+  then
+    gem install colorls
+fi
+
