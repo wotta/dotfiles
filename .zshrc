@@ -120,3 +120,5 @@ export COMPOSER_MEMORY_LIMIT=-1
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # eval "$(rbenv init -)"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

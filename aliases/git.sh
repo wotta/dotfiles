@@ -1,5 +1,7 @@
 # git aliases
 
+alias gcm="git log --no-merges --oneline --decorate master..HEAD --pretty='format:%s'"
+alias gcmcp="gcm | pbcopy"
 alias gst="git status"
 alias gb="git branch"
 alias gc="git checkout"
