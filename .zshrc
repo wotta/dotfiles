@@ -23,7 +23,7 @@ export MNML_RPROMPT=('mnml_cwd 20')
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,6 +99,13 @@ export LANG=en_US.UTF-8
 
 # Fix composer issue
 export COMPOSER_MEMORY_LIMIT=-1
+
+# Add composer to shell when installed.
+
+if command -v composer &> /dev/null
+  then
+    export PATH="$HOME/.composer/vendor/bin:$PATH"
+fi
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
