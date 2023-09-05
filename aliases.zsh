@@ -9,3 +9,4 @@ composer-link() {
 }
 
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias art='[ -f artisan ] && php artisan || php artisan'
